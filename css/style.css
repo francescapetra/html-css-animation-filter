@@ -98,6 +98,21 @@
 .ex-11-icon {
     font-size: 60px;
 }
+/* animazione */
+.ex-11-icon:hover{
+  animation: spin-second 1.5s linear;
+}
+@keyframes spin-second {
+  0%{
+    transform: rotate(0);
+  }
+  85%{
+    transform: rotate(315deg);
+  }
+  100%{
+    transform: rotate(0);
+  }
+}
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
