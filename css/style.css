@@ -157,7 +157,7 @@
     left:70%;
   }
   100%{
-   left: 0%;
+   left: 10%;
  }
 }
 .ex-12-button:hover .ex-12-bottom-white{
@@ -171,7 +171,7 @@
     right:70%;
   }
   100%{
-   right: 0%;
+   right: 20%;
  }
 }
 
