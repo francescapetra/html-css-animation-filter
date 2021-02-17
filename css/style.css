@@ -58,7 +58,20 @@
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
-
+.ex-7-img,
+.ex-8-img{
+  transition: 1.5s;
+}
+/* animazione */
+.ex-6-img:hover,
+.ex-7-img:hover,
+.ex-8-img:hover{
+    filter: grayscale(1);
+}
+.ex-7-img:hover,
+.ex-8-img:hover{
+  filter: sepia(0.7);
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
