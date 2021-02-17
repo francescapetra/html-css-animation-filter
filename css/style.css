@@ -75,7 +75,7 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
-    transition: 3s;
+    transition: 2.5s;
 }
 /* animazioni */
 .ex-9-img:hover {
@@ -85,6 +85,15 @@
 }
 .ex-10-icon {
     font-size: 60px;
+}
+/* animazioni */
+.ex-10-icon {
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0%{
+    transform: rotate(2turn);
+  }
 }
 .ex-11-icon {
     font-size: 60px;
