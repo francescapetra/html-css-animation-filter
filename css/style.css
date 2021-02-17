@@ -8,11 +8,19 @@
 .ex-1-square:hover{
   background: red;
 }
+
+
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+/* animazioni */
+.ex-2-square:active{
+  width: 100%;
+  transition: 2s;
+}
+
 .ex-3-square {
     width: 100px;
     height: 100px;
